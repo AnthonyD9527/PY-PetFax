@@ -1,6 +1,3 @@
-from flask import Flask
-app = flask(_name_)
+from petfax import create_app
+app = create_app()
 
-@app.route('/')
-def index():
-    return "Hello"
